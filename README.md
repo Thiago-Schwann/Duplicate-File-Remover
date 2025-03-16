@@ -1,29 +1,29 @@
 # Duplicate-File-Remover
-Um simples aplicativo em Python com interface gráfica (Tkinter), desenvolvido juntamente com a equipe de estagiários do TJSP para identificar e excluir arquivos duplicados em uma pasta. Utiliza SHA-256 para verificação de duplicidade e processamento em segundo plano com threads para melhor desempenho.
+A simple Python application with a graphical interface (Tkinter), developed in collaboration with the TJSP intern team to identify and delete duplicate files in a folder. It uses SHA-256 for duplicate verification and runs in the background using threads for better performance.
 
-# 📌 Recursos
+# 📌 Features
 
-✅ Interface gráfica intuitiva (Tkinter)
+✅ Intuitive graphical interface (Tkinter)
 
-✅ Verificação de duplicatas via hash SHA-256
+✅ Duplicate verification using SHA-256 hash
 
-✅ Execução em segundo plano para melhor desempenho
+✅ Background processing for improved performance
 
-✅ Exclusão automatizada de arquivos duplicados
-
-
-# ⚙️ Funcionamento
-
-1. Selecione uma pasta contendo arquivos.
-
-2. O programa verificará arquivos duplicados com base no tamanho e hash SHA-256.
-
-3. Exibe os arquivos duplicados encontrados.
-
-4. Exclui automaticamente os arquivos duplicados.
+✅ Automated deletion of duplicate files
 
 
-# 🛠️ Tecnologias Utilizadas
+# ⚙️ How it works
+
+1. Select a folder containing files.
+
+2. The program scans for duplicate files based on size and SHA-256 hash.
+
+3. Displays the detected duplicate files.
+
+4. Automatically deletes duplicate files
+
+
+# 🛠️ Technologies Used
 
 1. Python
 
